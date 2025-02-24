@@ -1,6 +1,10 @@
 # Optimizing Dispute Management Processes in Banks
 
-This repository contains code for optimizing dispute management processes within the banking sector. The project aims to process and analyze banking dispute data using machine learning techniques.
+This repository focuses on optimizing dispute management processes in the banking sector through the integration of cutting-edge technologies like Artificial Intelligence (AI), Machine Learning (ML), Big Data, and Natural Language Processing (NLP). Traditional banking dispute resolution methods are often slow, manual, and prone to errors, leading to delayed resolutions and customer dissatisfaction. By applying AI and ML, we can automate repetitive tasks such as categorizing complaints and generating responses, significantly improving efficiency and accuracy.
+
+NLP techniques are used to analyze unstructured data, such as customer feedback and transaction details, enhancing the understanding of dispute contexts. Big Data analytics empowers banks to identify patterns and emerging trends by analyzing vast amounts of customer and transaction data, allowing them to anticipate potential issues and take proactive measures. This repository explores the synergistic application of these technologies to reduce response times, improve dispute categorization, and provide personalized solutions. The goal is to enhance both customer satisfaction and operational efficiency, positioning these technologies as essential drivers of the future of banking dispute resolution.
+
+Paper: <link to paper>
 
 ## Files Included
 
@@ -23,49 +27,48 @@ To set up and run the project, follow the steps below:
 ### 1. Clone the Repository
 
 First, clone the repository to your local machine:
-```
+```bash
 git clone https://github.com/yourusername/Optimizing-Dispute-Management-Processes-in-Banks.git
 ```
-```
+```bash
 cd Optimizing-Dispute-Management-Processes-in-Banks
 ```
 ### 2. Create a Virtual Environment
 
 Create a virtual environment using venv to isolate the project dependencies:
-```
+```bash
 python -m venv venv
 ```
 Activate the virtual environment:
 
 On Windows:
-```
+```bash
 .\venv\Scripts\activate
 ```
 On macOS/Linux:
-```
+```bash
 source venv/bin/activate
 ```
 
 ### 3. Install Required Dependencies
 
 With the virtual environment activated, install the necessary dependencies from the requirements.txt file:
-```
+```bash
 pip install -r requirements.txt
 ```
 
-### 4. Running the Code
-
-Once the dependencies are installed, you can run the project scripts:
-
-
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. Acknowledgements
-```
+This project is licensed under the [MIT LICENSE](LICENSE) - see the LICENSE file for details. 
+
+## Acknowledgements
+
 The dataset used is fictional and tailored for the purposes of this analysis.
 Thanks to the contributors for making this project possible.
-```
+
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or reach out to me directly.
-
+If you have any questions or suggestions, feel free to open an issue or reach out to authors directly.
+1. Mohammad Hamim <hamimmd555@gmail.com>
+2. Nishat Bin Md. Harun <mohammedtamim099@gmail.com>
+3. Md Khiruzzaman Showhardo <showhardomk@gmail.com>
