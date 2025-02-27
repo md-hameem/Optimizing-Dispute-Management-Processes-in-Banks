@@ -11,10 +11,14 @@ Paper: <link to paper>
 - **`ai.py`**: Contains the implementation for the AI model used to process banking dispute data.
 - **`banking_dispute_dataset_zzu.csv`**: A CSV file containing the dataset used for analysis and model training.
 - **`kmeans.py`**: The script that implements the K-means clustering algorithm for grouping similar disputes.
+- **`Models`**: The dataset model is there.
+- **`data_visual.ipnyb`**: The script contains the visualization codes.
+- **`nlp.ipnyb`**: The script contains the NLP codes.
 - **`Figures/`**: Folder that contains visualizations and figures related to the analysis.
 - **`.gitignore`**: Specifies files and directories that should be ignored by Git.
 - **`LICENSE`**: MIT license file for the project.
 - **`README.md`**: This readme file.
+- **`requirements.txt`**: It contains the requirements file for the project for Python.
 
 ## Dataset
 
@@ -56,6 +60,14 @@ With the virtual environment activated, install the necessary dependencies from 
 ```bash
 pip install -r requirements.txt
 ```
+
+### 4. Running IPython Notebooks
+To run the IPython notebooks, ensure that you have Jupyter Notebook installed. You can start a Jupyter session by running the following command:
+
+```bash
+jupyter notebook
+```
+Once Jupyter opens in your browser, navigate to the notebook files (data_visual.ipynb and nlp.ipynb) and run them cell by cell for analysis.
 
 ## License
 
